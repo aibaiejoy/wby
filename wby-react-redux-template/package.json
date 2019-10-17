@@ -35,14 +35,8 @@
 		"wbyui": "^1.2.2"
 	},
 	"scripts": {
-		"start": "react-app-rewired start",
-		"build": "react-app-rewired build",
-		"dll": "rm -rf ./public/static && webpack --config webpack.dll.config.js",
-		"test": "react-app-rewired test --env=jsdom",
-		"eject": "react-scripts eject",
-		"precommit-msg": "echo '正在执行eslint验证...' && exit 0",
-		"eslint": "eslint ./src",
-		"eslint-fix": "eslint --fix ./src"
+		"start": "wby-react-scripts start",
+		"build": "wby-react-scripts build"
 	},
 	"proxy": {
 		"/api": {

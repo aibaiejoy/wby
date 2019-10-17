@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "wby-cli": "./bin/index.js"
+    "wby-create-react-app": "./bin/index.js"
   },
   "author": "",
   "license": "ISC",
